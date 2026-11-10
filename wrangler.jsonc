@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "carousel-site-cloudflare",
+  "name": "carousel-cf1",
   "main": "src/index.js",
   "compatibility_date": "2025-06-01",
   "assets": {
