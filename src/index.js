@@ -120,7 +120,6 @@ export default {
       return handleGenerate(request, env);
     }
 
-    // أي طلب ثاني يخدم من مجلد public/ (index.html)
     return env.ASSETS.fetch(request);
   },
 };
