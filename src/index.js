@@ -77,7 +77,6 @@ async function handleGenerate(request, env) {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${key}` },
       body: JSON.stringify({
-        // لو الموديل تغيّر اسمه، غيّره من إعدادات Cloudflare (GROQ_MODEL) بدون تعديل الكود
         model: env.GROQ_MODEL || "openai/gpt-oss-120b",
         temperature: 0.8,
         max_tokens: 2000,
